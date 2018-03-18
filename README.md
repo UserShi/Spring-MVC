@@ -1,4 +1,4 @@
-# Sping-MVC<br>
+# Spring-MVC<br>
 仿写一个简易的SpingMVC
 <br>
 ##  SpringMVC执行主要流程
@@ -11,6 +11,6 @@
 6.浏览器输入URL请求，DispatcherServlet统一拦截，解析HanderMapping，获取对应URL的Handler（即对应方法）<br>
 7.通过HandlerAdapter适配对应方法参数，反射调用对应方法，返回ModelAndView。<br>
 
-##  实际上，MVC做得事情更多，这里只是描述主要流程，简易实现基础功能。
+##  实际上，SpringMVC做得事情很多，这里只是描述主要流程，简易实现基础功能。
 --------------
 ##  如有错误，欢迎指正。
